@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    Hey kid! Wanna make a VM single?<br>
+    Me too, bud.<br><br>
+    <b>First, record all the parts:</b><br><audio controls><source src="tracking.mp3" type="audio/mpeg"></audio><br><br>
+    <b>Then, choose which vocal colors to use:</b><br><audio controls><source src="comp.mp3" type="audio/mpeg"></audio><br><br>
+    <b>Then, edit your vocals:</b><br><audio controls><source src="edit.mp3" type="audio/mpeg"></audio><br><br>
+    <b>Then, let your mixer do his thing:</b><br><audio controls><source src="mix 1.mp3" type="audio/mpeg"></audio><br><br>
+    <b>Then, give your mixer notes:</b><br><audio controls><source src="mix 2.mp3" type="audio/mpeg"></audio><br><br>
+    <b>Then, choose the best of both worlds:</b><br><audio controls>Coming Soon!</audio><br><br>
+    <b>Then, give it to a mastering engineer:</b><br><audio controls>Coming Soon!</audio><br><br>
+    <script>
+      s=document.createElement('script');s.src='https://code.jquery.com/jquery.min.js';s.onload=()=>{$('audio').each(function(){var playing,aud=this;this.onplay=()=>{$('audio').each(function(){if(this!=aud){this.pause()}});playing=setInterval(()=>{$('audio').each(function(){if(this!=aud){this.currentTime=aud.currentTime}})},200)};this.onpause=()=>{clearInterval(playing)}})};document.body.append(s);
+    </script>
+  </body>
+</html>
